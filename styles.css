@@ -18,7 +18,7 @@ h1 {
     font-size: 150px;
     color: #243447;
     margin: 0;
-    padding: 0;
+    padding: 0px 0px;
 }
 
 ul {
@@ -41,6 +41,9 @@ a{
     font-weight: 900;
 }
 
+a:hover {
+    color: whitesmoke;
+  }
 
 .content {
     display: flex;
@@ -49,7 +52,7 @@ a{
 }
 
 .odinTitle {
-    padding: 10px;
+    padding: 30px;
     background: #c51f5d;
     color: #c51f5d;
     height: fit-content;
